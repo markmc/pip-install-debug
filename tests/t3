@@ -1,0 +1,1 @@
+pip -vvv install http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz#egg=oslo.config-1.2.0.a34.g08203f6 python-keystoneclient
