@@ -1,8 +1,8 @@
-++ virtualenv t4
-New python executable in t4/bin/python
+++ virtualenv tN
+New python executable in tN/bin/python
 Installing setuptools............done.
 Installing pip...............done.
-++ . t4/bin/activate
+++ . tN/bin/activate
 +++ deactivate nondestructive
 +++ unset pydoc
 +++ '[' -n /usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts ']'
@@ -18,19 +18,19 @@ Installing pip...............done.
 +++ unset _OLD_VIRTUAL_PS1
 +++ unset VIRTUAL_ENV
 +++ '[' '!' nondestructive = nondestructive ']'
-+++ VIRTUAL_ENV=/home/markmc/trash/pip-debug/t4
++++ VIRTUAL_ENV=/home/markmc/trash/pip-debug/tN
 +++ export VIRTUAL_ENV
 +++ _OLD_VIRTUAL_PATH=/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
-+++ PATH=/home/markmc/trash/pip-debug/t4/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
++++ PATH=/home/markmc/trash/pip-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
 +++ export PATH
 +++ '[' -n '' ']'
 +++ '[' -z '' ']'
 +++ _OLD_VIRTUAL_PS1='(t1)'
 +++ '[' x '!=' x ']'
-++++ basename /home/markmc/trash/pip-debug/t4
-+++ '[' t4 = __ ']'
-++++ basename /home/markmc/trash/pip-debug/t4
-+++ PS1='(t4)(t1)'
+++++ basename /home/markmc/trash/pip-debug/tN
++++ '[' tN = __ ']'
+++++ basename /home/markmc/trash/pip-debug/tN
++++ PS1='(tN)(t1)'
 +++ export PS1
 +++ alias 'pydoc=python -m pydoc'
 +++ '[' -n /bin/bash -o -n '' ']'
@@ -38,15 +38,15 @@ Installing pip...............done.
 ++ pip -vvv install --upgrade pip
 Getting page http://pypi.openstack.org/pip
 Could not fetch URL http://pypi.openstack.org/pip: HTTP Error 404: Not Found
-Will skip URL http://pypi.openstack.org/pip when looking for download links for pip in ./t4/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+Will skip URL http://pypi.openstack.org/pip when looking for download links for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
 Getting page http://pypi.openstack.org/
-URLs to search for versions for pip in ./t4/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg:
+URLs to search for versions for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg:
 * http://pypi.openstack.org/pip/
 * http://pypi.python.org/simple/pip/
 Getting page http://pypi.openstack.org/pip/
 Getting page http://pypi.python.org/simple/pip/
 Could not fetch URL http://pypi.openstack.org/pip/: HTTP Error 404: Not Found
-Will skip URL http://pypi.openstack.org/pip/ when looking for download links for pip in ./t4/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+Will skip URL http://pypi.openstack.org/pip/ when looking for download links for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
 Analyzing links from page http://pypi.python.org/simple/pip/
   Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.tar.gz#md5=083ff408ca5314cf0561ff79a048cd9a (from http://pypi.python.org/simple/pip/), version: 0.6
   Found link http://pypi.python.org/packages/source/p/pip/pip-0.6.3.tar.gz#md5=0602fa9179cfaa98e41565d4a581d98c (from http://pypi.python.org/simple/pip/), version: 0.6.3
@@ -96,7 +96,7 @@ Downloading/unpacking pip from http://pypi.python.org/packages/source/p/pip/pip-
     warning: no previously-included files matching '*.txt' found under directory 'docs/_build'
     no previously-included directories found matching 'docs/_build/_sources'
     writing manifest file 'pip-egg-info/pip.egg-info/SOURCES.txt'
-  Source in ./t4/build/pip has version 1.3.1, which satisfies requirement pip from http://pypi.python.org/packages/source/p/pip/pip-1.3.1.tar.gz#md5=cbb27a191cebc58997c4da8513863153
+  Source in ./tN/build/pip has version 1.3.1, which satisfies requirement pip from http://pypi.python.org/packages/source/p/pip/pip-1.3.1.tar.gz#md5=cbb27a191cebc58997c4da8513863153
   skipping extra testing
   skipping extra testing
   skipping extra testing
@@ -104,14 +104,14 @@ Downloading/unpacking pip from http://pypi.python.org/packages/source/p/pip/pip-
 Installing collected packages: pip
   Found existing installation: pip 1.2.1
     Uninstalling pip:
-      Removing file or directory /home/markmc/trash/pip-debug/t4/bin/pip
-      Removing file or directory /home/markmc/trash/pip-debug/t4/bin/pip-2.7
-      Removing file or directory /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
-      Removing pth entries from /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/easy-install.pth:
+      Removing file or directory /home/markmc/trash/pip-debug/tN/bin/pip
+      Removing file or directory /home/markmc/trash/pip-debug/tN/bin/pip-2.7
+      Removing file or directory /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+      Removing pth entries from /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/easy-install.pth:
       Removing entry: ./pip-1.2.1-py2.7.egg
       Successfully uninstalled pip
   Running setup.py install for pip
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/pip/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-dCxdOJ-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/pip/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-dCxdOJ-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -157,79 +157,79 @@ Installing collected packages: pip
     copying pip/backwardcompat/__init__.py -> build/lib/pip/backwardcompat
     copying pip/cacert.pem -> build/lib/pip
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/exceptions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/index.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/basecommand.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/bundle.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/help.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/unzip.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/list.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/zip.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/search.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/freeze.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/install.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/completion.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/show.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/commands/uninstall.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands
-    copying build/lib/pip/status_codes.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/log.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/runner.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/locations.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/cacert.pem -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/req.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/__main__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/baseparser.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/util.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat
-    copying build/lib/pip/backwardcompat/socket_create_connection.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat
-    copying build/lib/pip/backwardcompat/ssl_match_hostname.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat
-    copying build/lib/pip/backwardcompat/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat
-    copying build/lib/pip/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    copying build/lib/pip/cmdoptions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/vcs/bazaar.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/vcs/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/vcs/subversion.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/vcs/mercurial.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/vcs/git.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs
-    copying build/lib/pip/download.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/exceptions.py to exceptions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/index.py to index.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/basecommand.py to basecommand.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/bundle.py to bundle.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/help.py to help.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/unzip.py to unzip.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/list.py to list.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/zip.py to zip.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/search.py to search.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/freeze.py to freeze.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/install.py to install.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/completion.py to completion.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/show.py to show.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/commands/uninstall.py to uninstall.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/status_codes.py to status_codes.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/log.py to log.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/runner.py to runner.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/locations.py to locations.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/req.py to req.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/__main__.py to __main__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/baseparser.py to baseparser.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/util.py to util.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat/socket_create_connection.py to socket_create_connection.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat/ssl_match_hostname.py to ssl_match_hostname.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/backwardcompat/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/cmdoptions.py to cmdoptions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs/bazaar.py to bazaar.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs/subversion.py to subversion.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs/mercurial.py to mercurial.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/vcs/git.py to git.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip/download.py to download.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/exceptions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/index.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/basecommand.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/bundle.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/help.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/unzip.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/list.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/zip.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/search.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/freeze.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/install.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/completion.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/show.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/uninstall.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/status_codes.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/log.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/runner.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/locations.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/cacert.pem -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/req.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/__main__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/baseparser.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/util.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/socket_create_connection.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/ssl_match_hostname.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/cmdoptions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/bazaar.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/subversion.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/mercurial.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/git.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/download.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/exceptions.py to exceptions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/index.py to index.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/basecommand.py to basecommand.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/bundle.py to bundle.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/help.py to help.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/unzip.py to unzip.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/list.py to list.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/zip.py to zip.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/search.py to search.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/freeze.py to freeze.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/install.py to install.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/completion.py to completion.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/show.py to show.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/commands/uninstall.py to uninstall.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/status_codes.py to status_codes.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/log.py to log.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/runner.py to runner.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/locations.py to locations.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/req.py to req.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/__main__.py to __main__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/baseparser.py to baseparser.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/util.py to util.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/socket_create_connection.py to socket_create_connection.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/ssl_match_hostname.py to ssl_match_hostname.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/cmdoptions.py to cmdoptions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs/bazaar.py to bazaar.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs/subversion.py to subversion.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs/mercurial.py to mercurial.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/vcs/git.py to git.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip/download.py to download.pyc
     running install_egg_info
     running egg_info
     writing requirements to pip.egg-info/requires.txt
@@ -245,14 +245,14 @@ Installing collected packages: pip
     warning: no previously-included files matching '*.txt' found under directory 'docs/_build'
     no previously-included directories found matching 'docs/_build/_sources'
     writing manifest file 'pip.egg-info/SOURCES.txt'
-    Copying pip.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg-info
+    Copying pip.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg-info
     running install_scripts
-    Installing pip script to /home/markmc/trash/pip-debug/t4/bin
-    Installing pip-2.7 script to /home/markmc/trash/pip-debug/t4/bin
+    Installing pip script to /home/markmc/trash/pip-debug/tN/bin
+    Installing pip-2.7 script to /home/markmc/trash/pip-debug/tN/bin
     writing list of installed files to '/tmp/pip-dCxdOJ-record/install-record.txt'
 Successfully installed pip
 Cleaning up...
-  Removing temporary dir /home/markmc/trash/pip-debug/t4/build...
+  Removing temporary dir /home/markmc/trash/pip-debug/tN/build...
 + pip -vvv install http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz#egg=oslo.config python-keystoneclient
 Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz
   Using download cache from /home/markmc/.pip/cache/http%3A%2F%2Ftarballs.openstack.org%2Foslo.config%2Foslo.config-master.tar.gz
@@ -265,7 +265,7 @@ Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     zip_safe flag not set; analyzing archive contents...
     
-    Installed /home/markmc/trash/pip-debug/t4/build/oslo.config/pbr-0.5.17-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/oslo.config/pbr-0.5.17-py2.7.egg
     Searching for d2to1
     Reading http://pypi.python.org/simple/d2to1/
     Best match: d2to1 0.2.10
@@ -273,7 +273,7 @@ Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config
     Processing d2to1-0.2.10.tar.gz
     Running d2to1-0.2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-2IL2m6/d2to1-0.2.10/egg-dist-tmp-dQUXqq
     
-    Installed /home/markmc/trash/pip-debug/t4/build/oslo.config/d2to1-0.2.10-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/oslo.config/d2to1-0.2.10-py2.7.egg
     Searching for setuptools-git>=0.4
     Reading http://pypi.python.org/simple/setuptools_git/
     Best match: setuptools-git 1.0b1
@@ -285,7 +285,7 @@ Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config
     /usr/lib64/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'mainainer_email'
       warnings.warn(msg)
     
-    Installed /home/markmc/trash/pip-debug/t4/build/oslo.config/setuptools_git-1.0b1-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/oslo.config/setuptools_git-1.0b1-py2.7.egg
     running egg_info
     creating pip-egg-info/oslo.config.egg-info
     writing requirements to pip-egg-info/oslo.config.egg-info/requires.txt
@@ -304,7 +304,7 @@ Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config
     warning: no previously-included files found matching '.gitreview'
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     writing manifest file 'pip-egg-info/oslo.config.egg-info/SOURCES.txt'
-  Source in ./t4/build/oslo.config has version 1.2.0.a34.g08203f6, which satisfies requirement oslo.config from http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz
+  Source in ./tN/build/oslo.config has version 1.2.0.a34.g08203f6, which satisfies requirement oslo.config from http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz
 Downloading/unpacking python-keystoneclient
   Getting page http://pypi.openstack.org/python-keystoneclient/
   Could not fetch URL http://pypi.openstack.org/python-keystoneclient/: HTTP Error 404: Not Found
@@ -339,7 +339,7 @@ Downloading/unpacking python-keystoneclient
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     zip_safe flag not set; analyzing archive contents...
     
-    Installed /home/markmc/trash/pip-debug/t4/build/python-keystoneclient/pbr-0.5.17-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/python-keystoneclient/pbr-0.5.17-py2.7.egg
     Searching for d2to1>=0.2.10,<0.3
     Reading http://pypi.python.org/simple/d2to1/
     Best match: d2to1 0.2.10
@@ -347,7 +347,7 @@ Downloading/unpacking python-keystoneclient
     Processing d2to1-0.2.10.tar.gz
     Running d2to1-0.2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-NYbaXL/d2to1-0.2.10/egg-dist-tmp-lXYfIW
     
-    Installed /home/markmc/trash/pip-debug/t4/build/python-keystoneclient/d2to1-0.2.10-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/python-keystoneclient/d2to1-0.2.10-py2.7.egg
     Searching for setuptools-git>=0.4
     Reading http://pypi.python.org/simple/setuptools_git/
     Best match: setuptools-git 1.0b1
@@ -359,7 +359,7 @@ Downloading/unpacking python-keystoneclient
     /usr/lib64/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'mainainer_email'
       warnings.warn(msg)
     
-    Installed /home/markmc/trash/pip-debug/t4/build/python-keystoneclient/setuptools_git-1.0b1-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/python-keystoneclient/setuptools_git-1.0b1-py2.7.egg
     running egg_info
     creating pip-egg-info/python_keystoneclient.egg-info
     writing requirements to pip-egg-info/python_keystoneclient.egg-info/requires.txt
@@ -374,7 +374,7 @@ Downloading/unpacking python-keystoneclient
     reading manifest file 'pip-egg-info/python_keystoneclient.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'pip-egg-info/python_keystoneclient.egg-info/SOURCES.txt'
-  Source in ./t4/build/python-keystoneclient has version 0.3.0, which satisfies requirement python-keystoneclient
+  Source in ./tN/build/python-keystoneclient has version 0.3.0, which satisfies requirement python-keystoneclient
 Downloading/unpacking six (from oslo.config)
   Getting page http://pypi.openstack.org/six/
   Could not fetch URL http://pypi.openstack.org/six/: HTTP Error 404: Not Found
@@ -414,7 +414,7 @@ Downloading/unpacking six (from oslo.config)
     
     reading manifest file 'pip-egg-info/six.egg-info/SOURCES.txt'
     writing manifest file 'pip-egg-info/six.egg-info/SOURCES.txt'
-  Source in ./t4/build/six has version 1.3.0, which satisfies requirement six (from oslo.config)
+  Source in ./tN/build/six has version 1.3.0, which satisfies requirement six (from oslo.config)
 Downloading/unpacking d2to1>=0.2.10,<0.3 (from python-keystoneclient)
   Getting page http://pypi.openstack.org/d2to1/
   Could not fetch URL http://pypi.openstack.org/d2to1/: HTTP Error 404: Not Found
@@ -476,7 +476,7 @@ Downloading/unpacking d2to1>=0.2.10,<0.3 (from python-keystoneclient)
     
     reading manifest file 'pip-egg-info/d2to1.egg-info/SOURCES.txt'
     writing manifest file 'pip-egg-info/d2to1.egg-info/SOURCES.txt'
-  Source in ./t4/build/d2to1 has version 0.2.10, which satisfies requirement d2to1>=0.2.10,<0.3 (from python-keystoneclient)
+  Source in ./tN/build/d2to1 has version 0.2.10, which satisfies requirement d2to1>=0.2.10,<0.3 (from python-keystoneclient)
 Downloading/unpacking pbr>=0.5,<0.6 (from python-keystoneclient)
   Getting page http://pypi.openstack.org/pbr/
   Could not fetch URL http://pypi.openstack.org/pbr/: HTTP Error 404: Not Found
@@ -512,7 +512,7 @@ Downloading/unpacking pbr>=0.5,<0.6 (from python-keystoneclient)
   Running setup.py egg_info for package pbr
     Running command python setup.py egg_info
     
-    Installed /home/markmc/trash/pip-debug/t4/build/pbr/d2to1-0.2.10-py2.7.egg
+    Installed /home/markmc/trash/pip-debug/tN/build/pbr/d2to1-0.2.10-py2.7.egg
     running egg_info
     creating pip-egg-info/pbr.egg-info
     writing requirements to pip-egg-info/pbr.egg-info/requires.txt
@@ -529,7 +529,7 @@ Downloading/unpacking pbr>=0.5,<0.6 (from python-keystoneclient)
     warning: no previously-included files found matching '.gitreview'
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     writing manifest file 'pip-egg-info/pbr.egg-info/SOURCES.txt'
-  Source in ./t4/build/pbr has version 0.5.17, which satisfies requirement pbr>=0.5,<0.6 (from python-keystoneclient)
+  Source in ./tN/build/pbr has version 0.5.17, which satisfies requirement pbr>=0.5,<0.6 (from python-keystoneclient)
 Downloading/unpacking iso8601>=0.1.4 (from python-keystoneclient)
   Getting page http://pypi.openstack.org/iso8601/
   Could not fetch URL http://pypi.openstack.org/iso8601/: HTTP Error 404: Not Found
@@ -573,7 +573,7 @@ Downloading/unpacking iso8601>=0.1.4 (from python-keystoneclient)
     
     reading manifest file 'pip-egg-info/iso8601.egg-info/SOURCES.txt'
     writing manifest file 'pip-egg-info/iso8601.egg-info/SOURCES.txt'
-  Source in ./t4/build/iso8601 has version 0.1.4, which satisfies requirement iso8601>=0.1.4 (from python-keystoneclient)
+  Source in ./tN/build/iso8601 has version 0.1.4, which satisfies requirement iso8601>=0.1.4 (from python-keystoneclient)
 Downloading/unpacking prettytable>=0.6,<0.8 (from python-keystoneclient)
   Getting page http://pypi.openstack.org/prettytable/
   Could not fetch URL http://pypi.openstack.org/prettytable/: HTTP Error 404: Not Found
@@ -632,7 +632,7 @@ Downloading/unpacking prettytable>=0.6,<0.8 (from python-keystoneclient)
     reading manifest file 'pip-egg-info/prettytable.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'pip-egg-info/prettytable.egg-info/SOURCES.txt'
-  Source in ./t4/build/prettytable has version 0.7.2, which satisfies requirement prettytable>=0.6,<0.8 (from python-keystoneclient)
+  Source in ./tN/build/prettytable has version 0.7.2, which satisfies requirement prettytable>=0.6,<0.8 (from python-keystoneclient)
 Downloading/unpacking requests>=0.8.8 (from python-keystoneclient)
   Getting page http://pypi.openstack.org/requests/
   Could not fetch URL http://pypi.openstack.org/requests/: HTTP Error 404: Not Found
@@ -773,7 +773,7 @@ Downloading/unpacking requests>=0.8.8 (from python-keystoneclient)
     reading manifest file 'pip-egg-info/requests.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'pip-egg-info/requests.egg-info/SOURCES.txt'
-  Source in ./t4/build/requests has version 1.2.3, which satisfies requirement requests>=0.8.8 (from python-keystoneclient)
+  Source in ./tN/build/requests has version 1.2.3, which satisfies requirement requests>=0.8.8 (from python-keystoneclient)
 Downloading/unpacking simplejson (from python-keystoneclient)
   Getting page http://pypi.openstack.org/simplejson/
   Could not fetch URL http://pypi.openstack.org/simplejson/: HTTP Error 404: Not Found
@@ -891,8 +891,8 @@ Downloading/unpacking simplejson (from python-keystoneclient)
     reading manifest file 'pip-egg-info/simplejson.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'pip-egg-info/simplejson.egg-info/SOURCES.txt'
-  Source in ./t4/build/simplejson has version 3.3.0, which satisfies requirement simplejson (from python-keystoneclient)
-Requirement already satisfied (use --upgrade to upgrade): setuptools in ./t4/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg (from d2to1>=0.2.10,<0.3->python-keystoneclient)
+  Source in ./tN/build/simplejson has version 3.3.0, which satisfies requirement simplejson (from python-keystoneclient)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in ./tN/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg (from d2to1>=0.2.10,<0.3->python-keystoneclient)
 Downloading/unpacking setuptools-git>=0.4 (from pbr>=0.5,<0.6->python-keystoneclient)
   Getting page http://pypi.openstack.org/setuptools_git/
   Could not fetch URL http://pypi.openstack.org/setuptools_git/: HTTP Error 404: Not Found
@@ -937,10 +937,10 @@ Downloading/unpacking setuptools-git>=0.4 (from pbr>=0.5,<0.6->python-keystonecl
     
     reading manifest file 'pip-egg-info/setuptools_git.egg-info/SOURCES.txt'
     writing manifest file 'pip-egg-info/setuptools_git.egg-info/SOURCES.txt'
-  Source in ./t4/build/setuptools-git has version 1.0b1, which satisfies requirement setuptools-git>=0.4 (from pbr>=0.5,<0.6->python-keystoneclient)
+  Source in ./tN/build/setuptools-git has version 1.0b1, which satisfies requirement setuptools-git>=0.4 (from pbr>=0.5,<0.6->python-keystoneclient)
 Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, pbr, iso8601, prettytable, requests, simplejson, setuptools-git
   Running setup.py install for oslo.config
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/oslo.config/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-uUtmI5-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/oslo.config/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-uUtmI5-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -968,20 +968,20 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     writing manifest file 'oslo.config.egg-info/SOURCES.txt'
     running install_lib
-    Skipping installation of /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/__init__.py (namespace package)
-    copying oslo/config/iniparser.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config
-    copying oslo/config/cfg.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config
-    copying oslo/config/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config/iniparser.py to iniparser.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config/cfg.py to cfg.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo/config/__init__.py to __init__.pyc
+    Skipping installation of /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/__init__.py (namespace package)
+    copying oslo/config/iniparser.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config
+    copying oslo/config/cfg.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config
+    copying oslo/config/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config/iniparser.py to iniparser.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config/cfg.py to cfg.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo/config/__init__.py to __init__.pyc
     running install_egg_info
-    Copying oslo.config.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo.config-1.2.0.a34.g08203f6-py2.7.egg-info
-    Installing /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/oslo.config-1.2.0.a34.g08203f6-py2.7-nspkg.pth
+    Copying oslo.config.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo.config-1.2.0.a34.g08203f6-py2.7.egg-info
+    Installing /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/oslo.config-1.2.0.a34.g08203f6-py2.7-nspkg.pth
     running install_scripts
     writing list of installed files to '/tmp/pip-uUtmI5-record/install-record.txt'
   Running setup.py install for python-keystoneclient
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/python-keystoneclient/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-_PQlVL-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/python-keystoneclient/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-_PQlVL-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1059,120 +1059,120 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     creating build/lib/keystoneclient/locale
     copying keystoneclient/locale/keystoneclient.pot -> build/lib/keystoneclient/locale
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    copying build/lib/keystoneclient/exceptions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    copying build/lib/keystoneclient/shell.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/roles.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/shell.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/tenants.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/users.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/endpoints.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/tokens.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/services.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/client.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    copying build/lib/keystoneclient/v2_0/ec2.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/common
-    copying build/lib/keystoneclient/common/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/common
-    copying build/lib/keystoneclient/common/cms.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/common
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware
-    copying build/lib/keystoneclient/middleware/auth_token.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware
-    copying build/lib/keystoneclient/middleware/memcache_crypt.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware
-    copying build/lib/keystoneclient/middleware/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware
-    copying build/lib/keystoneclient/service_catalog.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/roles.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/users.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/policies.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/endpoints.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/services.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/projects.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/credentials.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/client.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/domains.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    copying build/lib/keystoneclient/v3/groups.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/locale
-    copying build/lib/keystoneclient/locale/keystoneclient.pot -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/locale
-    copying build/lib/keystoneclient/base.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    copying build/lib/keystoneclient/access.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    copying build/lib/keystoneclient/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    copying build/lib/keystoneclient/client.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common
-    copying build/lib/keystoneclient/openstack/common/timeutils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common
-    copying build/lib/keystoneclient/openstack/common/jsonutils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common
-    copying build/lib/keystoneclient/openstack/common/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common
-    copying build/lib/keystoneclient/openstack/common/memorycache.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common
-    copying build/lib/keystoneclient/openstack/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack
-    copying build/lib/keystoneclient/utils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic
-    copying build/lib/keystoneclient/generic/shell.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic
-    copying build/lib/keystoneclient/generic/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic
-    copying build/lib/keystoneclient/generic/client.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/ec2
-    copying build/lib/keystoneclient/contrib/ec2/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/ec2
-    copying build/lib/keystoneclient/contrib/ec2/utils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/ec2
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
-    copying build/lib/keystoneclient/contrib/bootstrap/shell.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
-    copying build/lib/keystoneclient/contrib/bootstrap/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
-    copying build/lib/keystoneclient/contrib/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/exceptions.py to exceptions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/shell.py to shell.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/roles.py to roles.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/shell.py to shell.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/tenants.py to tenants.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/users.py to users.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/endpoints.py to endpoints.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/tokens.py to tokens.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/services.py to services.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/client.py to client.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v2_0/ec2.py to ec2.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/common/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/common/cms.py to cms.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware/auth_token.py to auth_token.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware/memcache_crypt.py to memcache_crypt.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/middleware/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/service_catalog.py to service_catalog.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/roles.py to roles.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/users.py to users.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/policies.py to policies.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/endpoints.py to endpoints.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/services.py to services.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/projects.py to projects.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/credentials.py to credentials.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/client.py to client.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/domains.py to domains.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/v3/groups.py to groups.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/base.py to base.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/access.py to access.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/client.py to client.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common/timeutils.py to timeutils.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common/jsonutils.py to jsonutils.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/common/memorycache.py to memorycache.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/openstack/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/utils.py to utils.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic/shell.py to shell.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/generic/client.py to client.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/ec2/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/ec2/utils.py to utils.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap/shell.py to shell.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/keystoneclient/contrib/__init__.py to __init__.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    copying build/lib/keystoneclient/exceptions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    copying build/lib/keystoneclient/shell.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/roles.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/shell.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/tenants.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/users.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/endpoints.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/tokens.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/services.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/client.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    copying build/lib/keystoneclient/v2_0/ec2.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/common
+    copying build/lib/keystoneclient/common/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/common
+    copying build/lib/keystoneclient/common/cms.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/common
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware
+    copying build/lib/keystoneclient/middleware/auth_token.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware
+    copying build/lib/keystoneclient/middleware/memcache_crypt.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware
+    copying build/lib/keystoneclient/middleware/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware
+    copying build/lib/keystoneclient/service_catalog.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/roles.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/users.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/policies.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/endpoints.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/services.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/projects.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/credentials.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/client.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/domains.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    copying build/lib/keystoneclient/v3/groups.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/locale
+    copying build/lib/keystoneclient/locale/keystoneclient.pot -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/locale
+    copying build/lib/keystoneclient/base.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    copying build/lib/keystoneclient/access.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    copying build/lib/keystoneclient/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    copying build/lib/keystoneclient/client.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common
+    copying build/lib/keystoneclient/openstack/common/timeutils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common
+    copying build/lib/keystoneclient/openstack/common/jsonutils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common
+    copying build/lib/keystoneclient/openstack/common/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common
+    copying build/lib/keystoneclient/openstack/common/memorycache.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common
+    copying build/lib/keystoneclient/openstack/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack
+    copying build/lib/keystoneclient/utils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic
+    copying build/lib/keystoneclient/generic/shell.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic
+    copying build/lib/keystoneclient/generic/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic
+    copying build/lib/keystoneclient/generic/client.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/ec2
+    copying build/lib/keystoneclient/contrib/ec2/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/ec2
+    copying build/lib/keystoneclient/contrib/ec2/utils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/ec2
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
+    copying build/lib/keystoneclient/contrib/bootstrap/shell.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
+    copying build/lib/keystoneclient/contrib/bootstrap/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap
+    copying build/lib/keystoneclient/contrib/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/exceptions.py to exceptions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/shell.py to shell.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/roles.py to roles.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/shell.py to shell.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/tenants.py to tenants.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/users.py to users.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/endpoints.py to endpoints.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/tokens.py to tokens.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/services.py to services.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/client.py to client.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v2_0/ec2.py to ec2.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/common/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/common/cms.py to cms.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware/auth_token.py to auth_token.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware/memcache_crypt.py to memcache_crypt.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/middleware/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/service_catalog.py to service_catalog.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/roles.py to roles.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/users.py to users.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/policies.py to policies.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/endpoints.py to endpoints.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/services.py to services.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/projects.py to projects.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/credentials.py to credentials.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/client.py to client.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/domains.py to domains.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/v3/groups.py to groups.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/base.py to base.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/access.py to access.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/client.py to client.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common/timeutils.py to timeutils.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common/jsonutils.py to jsonutils.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/common/memorycache.py to memorycache.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/openstack/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/utils.py to utils.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic/shell.py to shell.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/generic/client.py to client.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/ec2/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/ec2/utils.py to utils.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap/shell.py to shell.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/bootstrap/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/keystoneclient/contrib/__init__.py to __init__.pyc
     running install_egg_info
-    Copying python_keystoneclient.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/python_keystoneclient-0.3.0-py2.7.egg-info
+    Copying python_keystoneclient.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/python_keystoneclient-0.3.0-py2.7.egg-info
     running install_scripts
-    Installing keystone script to /home/markmc/trash/pip-debug/t4/bin
+    Installing keystone script to /home/markmc/trash/pip-debug/tN/bin
     writing list of installed files to '/tmp/pip-_PQlVL-record/install-record.txt'
   Running setup.py install for six
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/six/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-BOUNaD-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/six/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-BOUNaD-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1180,8 +1180,8 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     creating build/lib
     copying six.py -> build/lib
     running install_lib
-    copying build/lib/six.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/six.py to six.pyc
+    copying build/lib/six.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/six.py to six.pyc
     running install_egg_info
     running egg_info
     creating six.egg-info
@@ -1193,11 +1193,11 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     
     reading manifest file 'six.egg-info/SOURCES.txt'
     writing manifest file 'six.egg-info/SOURCES.txt'
-    Copying six.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/six-1.3.0-py2.7.egg-info
+    Copying six.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/six-1.3.0-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-BOUNaD-record/install-record.txt'
   Running setup.py install for d2to1
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/d2to1/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ZpL8hR-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/d2to1/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ZpL8hR-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1212,20 +1212,20 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     copying d2to1/extern/six.py -> build/lib/d2to1/extern
     copying d2to1/extern/__init__.py -> build/lib/d2to1/extern
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1
-    copying build/lib/d2to1/core.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1
-    copying build/lib/d2to1/util.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1
-    copying build/lib/d2to1/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/extern
-    copying build/lib/d2to1/extern/six.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/extern
-    copying build/lib/d2to1/extern/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/extern
-    copying build/lib/d2to1/zestreleaser.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/core.py to core.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/util.py to util.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/extern/six.py to six.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/extern/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1/zestreleaser.py to zestreleaser.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1
+    copying build/lib/d2to1/core.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1
+    copying build/lib/d2to1/util.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1
+    copying build/lib/d2to1/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/extern
+    copying build/lib/d2to1/extern/six.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/extern
+    copying build/lib/d2to1/extern/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/extern
+    copying build/lib/d2to1/zestreleaser.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/core.py to core.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/util.py to util.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/extern/six.py to six.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/extern/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1/zestreleaser.py to zestreleaser.pyc
     running install_egg_info
     running egg_info
     writing requirements to d2to1.egg-info/requires.txt
@@ -1238,11 +1238,11 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     
     reading manifest file 'd2to1.egg-info/SOURCES.txt'
     writing manifest file 'd2to1.egg-info/SOURCES.txt'
-    Copying d2to1.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/d2to1-0.2.10-py2.7.egg-info
+    Copying d2to1.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/d2to1-0.2.10-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-ZpL8hR-record/install-record.txt'
   Running setup.py install for pbr
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/pbr/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-js1OkB-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/pbr/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-js1OkB-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1278,41 +1278,41 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     warning: no previously-included files matching '*.pyc' found anywhere in distribution
     writing manifest file 'pbr.egg-info/SOURCES.txt'
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/files.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/base.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/backwards.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/commands.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    copying build/lib/pbr/hooks/metadata.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests
-    copying build/lib/pbr/tests/test_version.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests
-    copying build/lib/pbr/tests/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests
-    copying build/lib/pbr/tests/test_setup.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests
-    copying build/lib/pbr/packaging.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr
-    copying build/lib/pbr/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr
-    copying build/lib/pbr/find_package.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr
-    copying build/lib/pbr/version.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/files.py to files.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/base.py to base.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/backwards.py to backwards.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/commands.py to commands.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/hooks/metadata.py to metadata.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests/test_version.py to test_version.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/tests/test_setup.py to test_setup.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/packaging.py to packaging.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/find_package.py to find_package.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr/version.py to version.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/files.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/base.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/backwards.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/commands.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    copying build/lib/pbr/hooks/metadata.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests
+    copying build/lib/pbr/tests/test_version.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests
+    copying build/lib/pbr/tests/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests
+    copying build/lib/pbr/tests/test_setup.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests
+    copying build/lib/pbr/packaging.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr
+    copying build/lib/pbr/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr
+    copying build/lib/pbr/find_package.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr
+    copying build/lib/pbr/version.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/files.py to files.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/base.py to base.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/backwards.py to backwards.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/commands.py to commands.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/hooks/metadata.py to metadata.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests/test_version.py to test_version.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/tests/test_setup.py to test_setup.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/packaging.py to packaging.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/find_package.py to find_package.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr/version.py to version.pyc
     running install_egg_info
-    Copying pbr.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/pbr-0.5.17-py2.7.egg-info
+    Copying pbr.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/pbr-0.5.17-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-js1OkB-record/install-record.txt'
   Running setup.py install for iso8601
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/iso8601/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-HMpDWQ-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/iso8601/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-HMpDWQ-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1323,13 +1323,13 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     copying iso8601/iso8601.py -> build/lib/iso8601
     copying iso8601/__init__.py -> build/lib/iso8601
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601
-    copying build/lib/iso8601/test_iso8601.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601
-    copying build/lib/iso8601/iso8601.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601
-    copying build/lib/iso8601/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601/test_iso8601.py to test_iso8601.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601/iso8601.py to iso8601.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601/__init__.py to __init__.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601
+    copying build/lib/iso8601/test_iso8601.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601
+    copying build/lib/iso8601/iso8601.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601
+    copying build/lib/iso8601/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601/test_iso8601.py to test_iso8601.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601/iso8601.py to iso8601.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601/__init__.py to __init__.pyc
     running install_egg_info
     running egg_info
     writing iso8601.egg-info/PKG-INFO
@@ -1339,11 +1339,11 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     
     reading manifest file 'iso8601.egg-info/SOURCES.txt'
     writing manifest file 'iso8601.egg-info/SOURCES.txt'
-    Copying iso8601.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/iso8601-0.1.4-py2.7.egg-info
+    Copying iso8601.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/iso8601-0.1.4-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-HMpDWQ-record/install-record.txt'
   Running setup.py install for prettytable
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/prettytable/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-L1mNaR-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/prettytable/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-L1mNaR-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1351,8 +1351,8 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     creating build/lib
     copying prettytable.py -> build/lib
     running install_lib
-    copying build/lib/prettytable.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/prettytable.py to prettytable.pyc
+    copying build/lib/prettytable.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/prettytable.py to prettytable.pyc
     running install_egg_info
     running egg_info
     writing prettytable.egg-info/PKG-INFO
@@ -1363,11 +1363,11 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     reading manifest file 'prettytable.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'prettytable.egg-info/SOURCES.txt'
-    Copying prettytable.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/prettytable-0.7.2-py2.7.egg-info
+    Copying prettytable.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/prettytable-0.7.2-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-L1mNaR-record/install-record.txt'
   Running setup.py install for requests
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/requests/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-Hy8dJg-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/requests/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-Hy8dJg-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1459,156 +1459,156 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     writing manifest file 'requests.egg-info/SOURCES.txt'
     copying requests/cacert.pem -> build/lib/requests
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/exceptions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/status_codes.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/api.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/cacert.pem -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/auth.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/adapters.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/compat.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/cookies.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/hooks.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/structures.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/gb2312freq.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/universaldetector.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/cp949prober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/eucjpprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/euctwprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/hebrewprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langgreekmodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langhebrewmodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/big5freq.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/utf8prober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langbulgarianmodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/escsm.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/sbcharsetprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/codingstatemachine.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/sbcsgroupprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/euckrfreq.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/jisfreq.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/mbcharsetprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/compat.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/jpcntx.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langthaimodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/escprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langcyrillicmodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/sjisprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/mbcsgroupprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/chardistribution.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/constants.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/charsetprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/big5prober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/euckrprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/mbcssm.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/langhungarianmodel.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/charsetgroupprober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/gb2312prober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/latin1prober.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    copying build/lib/requests/packages/charade/euctwfreq.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/exceptions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/util.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/filepost.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/request.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/response.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/poolmanager.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages
-    copying build/lib/requests/packages/urllib3/packages/ordered_dict.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages
-    copying build/lib/requests/packages/urllib3/packages/six.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages
-    copying build/lib/requests/packages/urllib3/packages/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname
-    copying build/lib/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname
-    copying build/lib/requests/packages/urllib3/connectionpool.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    copying build/lib/requests/packages/urllib3/_collections.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib
-    copying build/lib/requests/packages/urllib3/contrib/ntlmpool.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib
-    copying build/lib/requests/packages/urllib3/contrib/pyopenssl.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib
-    copying build/lib/requests/packages/urllib3/contrib/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib
-    copying build/lib/requests/packages/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages
-    copying build/lib/requests/models.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/utils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/sessions.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    copying build/lib/requests/certs.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/exceptions.py to exceptions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/status_codes.py to status_codes.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/api.py to api.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/auth.py to auth.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/adapters.py to adapters.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/compat.py to compat.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/cookies.py to cookies.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/hooks.py to hooks.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/structures.py to structures.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/gb2312freq.py to gb2312freq.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/universaldetector.py to universaldetector.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/cp949prober.py to cp949prober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/eucjpprober.py to eucjpprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/euctwprober.py to euctwprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/hebrewprober.py to hebrewprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langgreekmodel.py to langgreekmodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langhebrewmodel.py to langhebrewmodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/big5freq.py to big5freq.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/utf8prober.py to utf8prober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langbulgarianmodel.py to langbulgarianmodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/escsm.py to escsm.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/sbcharsetprober.py to sbcharsetprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/codingstatemachine.py to codingstatemachine.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/sbcsgroupprober.py to sbcsgroupprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/euckrfreq.py to euckrfreq.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/jisfreq.py to jisfreq.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/mbcharsetprober.py to mbcharsetprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/compat.py to compat.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/jpcntx.py to jpcntx.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langthaimodel.py to langthaimodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/escprober.py to escprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langcyrillicmodel.py to langcyrillicmodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/sjisprober.py to sjisprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/mbcsgroupprober.py to mbcsgroupprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/chardistribution.py to chardistribution.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/constants.py to constants.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/charsetprober.py to charsetprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/big5prober.py to big5prober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/euckrprober.py to euckrprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/mbcssm.py to mbcssm.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/langhungarianmodel.py to langhungarianmodel.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/charsetgroupprober.py to charsetgroupprober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/gb2312prober.py to gb2312prober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/latin1prober.py to latin1prober.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/charade/euctwfreq.py to euctwfreq.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/exceptions.py to exceptions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/util.py to util.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/filepost.py to filepost.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/request.py to request.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/response.py to response.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/poolmanager.py to poolmanager.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/ordered_dict.py to ordered_dict.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/six.py to six.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/connectionpool.py to connectionpool.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/_collections.py to _collections.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib/ntlmpool.py to ntlmpool.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib/pyopenssl.py to pyopenssl.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/urllib3/contrib/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/packages/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/models.py to models.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/utils.py to utils.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/sessions.py to sessions.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests/certs.py to certs.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/exceptions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/status_codes.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/api.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/cacert.pem -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/auth.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/adapters.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/compat.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/cookies.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/hooks.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/structures.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/gb2312freq.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/universaldetector.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/cp949prober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/eucjpprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/euctwprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/hebrewprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langgreekmodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langhebrewmodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/big5freq.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/utf8prober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langbulgarianmodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/escsm.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/sbcharsetprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/codingstatemachine.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/sbcsgroupprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/euckrfreq.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/jisfreq.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/mbcharsetprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/compat.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/jpcntx.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langthaimodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/escprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langcyrillicmodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/sjisprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/mbcsgroupprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/chardistribution.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/constants.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/charsetprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/big5prober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/euckrprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/mbcssm.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/langhungarianmodel.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/charsetgroupprober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/gb2312prober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/latin1prober.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    copying build/lib/requests/packages/charade/euctwfreq.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/exceptions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/util.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/filepost.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/request.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/response.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/poolmanager.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages
+    copying build/lib/requests/packages/urllib3/packages/ordered_dict.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages
+    copying build/lib/requests/packages/urllib3/packages/six.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages
+    copying build/lib/requests/packages/urllib3/packages/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname
+    copying build/lib/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname
+    copying build/lib/requests/packages/urllib3/connectionpool.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    copying build/lib/requests/packages/urllib3/_collections.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib
+    copying build/lib/requests/packages/urllib3/contrib/ntlmpool.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib
+    copying build/lib/requests/packages/urllib3/contrib/pyopenssl.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib
+    copying build/lib/requests/packages/urllib3/contrib/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib
+    copying build/lib/requests/packages/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages
+    copying build/lib/requests/models.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/utils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/sessions.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    copying build/lib/requests/certs.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/exceptions.py to exceptions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/status_codes.py to status_codes.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/api.py to api.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/auth.py to auth.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/adapters.py to adapters.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/compat.py to compat.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/cookies.py to cookies.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/hooks.py to hooks.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/structures.py to structures.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/gb2312freq.py to gb2312freq.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/universaldetector.py to universaldetector.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/cp949prober.py to cp949prober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/eucjpprober.py to eucjpprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/euctwprober.py to euctwprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/hebrewprober.py to hebrewprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langgreekmodel.py to langgreekmodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langhebrewmodel.py to langhebrewmodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/big5freq.py to big5freq.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/utf8prober.py to utf8prober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langbulgarianmodel.py to langbulgarianmodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/escsm.py to escsm.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/sbcharsetprober.py to sbcharsetprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/codingstatemachine.py to codingstatemachine.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/sbcsgroupprober.py to sbcsgroupprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/euckrfreq.py to euckrfreq.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/jisfreq.py to jisfreq.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/mbcharsetprober.py to mbcharsetprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/compat.py to compat.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/jpcntx.py to jpcntx.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langthaimodel.py to langthaimodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/escprober.py to escprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langcyrillicmodel.py to langcyrillicmodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/sjisprober.py to sjisprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/mbcsgroupprober.py to mbcsgroupprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/chardistribution.py to chardistribution.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/constants.py to constants.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/charsetprober.py to charsetprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/big5prober.py to big5prober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/euckrprober.py to euckrprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/mbcssm.py to mbcssm.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/langhungarianmodel.py to langhungarianmodel.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/charsetgroupprober.py to charsetgroupprober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/gb2312prober.py to gb2312prober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/latin1prober.py to latin1prober.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/charade/euctwfreq.py to euctwfreq.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/exceptions.py to exceptions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/util.py to util.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/filepost.py to filepost.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/request.py to request.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/response.py to response.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/poolmanager.py to poolmanager.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/ordered_dict.py to ordered_dict.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/six.py to six.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/connectionpool.py to connectionpool.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/_collections.py to _collections.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib/ntlmpool.py to ntlmpool.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib/pyopenssl.py to pyopenssl.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/urllib3/contrib/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/packages/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/models.py to models.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/utils.py to utils.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/sessions.py to sessions.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests/certs.py to certs.pyc
     running install_egg_info
-    Copying requests.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/requests-1.2.3-py2.7.egg-info
+    Copying requests.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/requests-1.2.3-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-Hy8dJg-record/install-record.txt'
   Running setup.py install for simplejson
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/simplejson/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-NIXqcB-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/simplejson/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-NIXqcB-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     running install
     running build
     running build_py
@@ -1656,75 +1656,75 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector --param=ssp-buffer-size=4 -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC -I/usr/include/python2.7 -c simplejson/_speedups.c -o build/temp.linux-x86_64-2.7/simplejson/_speedups.o
     gcc -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/simplejson/_speedups.o -L/usr/lib64 -lpython2.7 -o build/lib.linux-x86_64-2.7/simplejson/_speedups.so
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/ordered_dict.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/tool.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    creating /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_bigint_as_string.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_tuple.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_recursion.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_namedtuple.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_default.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_encode_for_html.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_decode.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_decimal.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_fail.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_dump.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_tool.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_check_circular.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass3.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_separators.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_scanstring.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/__init__.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_indent.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_speedups.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_float.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass2.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass1.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_encode_basestring_ascii.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_item_sort_key.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_errors.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_for_json.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_unicode.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests
-    copying build/lib.linux-x86_64-2.7/simplejson/scanner.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/_speedups.so -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/__init__.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/compat.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/encoder.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    copying build/lib.linux-x86_64-2.7/simplejson/decoder.py -> /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/ordered_dict.py to ordered_dict.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tool.py to tool.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_bigint_as_string.py to test_bigint_as_string.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_tuple.py to test_tuple.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_recursion.py to test_recursion.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_namedtuple.py to test_namedtuple.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_default.py to test_default.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_encode_for_html.py to test_encode_for_html.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_decode.py to test_decode.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_decimal.py to test_decimal.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_fail.py to test_fail.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_dump.py to test_dump.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_tool.py to test_tool.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_check_circular.py to test_check_circular.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_pass3.py to test_pass3.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_separators.py to test_separators.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_scanstring.py to test_scanstring.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_indent.py to test_indent.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_speedups.py to test_speedups.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_float.py to test_float.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_pass2.py to test_pass2.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_pass1.py to test_pass1.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_encode_basestring_ascii.py to test_encode_basestring_ascii.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_item_sort_key.py to test_item_sort_key.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_errors.py to test_errors.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_for_json.py to test_for_json.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/tests/test_unicode.py to test_unicode.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/scanner.py to scanner.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/compat.py to compat.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/encoder.py to encoder.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson/decoder.py to decoder.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/ordered_dict.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/tool.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    creating /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_bigint_as_string.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_tuple.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_recursion.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_namedtuple.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_default.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_encode_for_html.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_decode.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_decimal.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_fail.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_dump.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_tool.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_check_circular.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass3.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_separators.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_scanstring.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/__init__.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_indent.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_speedups.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_float.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass2.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_pass1.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_encode_basestring_ascii.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_item_sort_key.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_errors.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_for_json.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/tests/test_unicode.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests
+    copying build/lib.linux-x86_64-2.7/simplejson/scanner.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/_speedups.so -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/__init__.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/compat.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/encoder.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    copying build/lib.linux-x86_64-2.7/simplejson/decoder.py -> /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/ordered_dict.py to ordered_dict.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tool.py to tool.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_bigint_as_string.py to test_bigint_as_string.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_tuple.py to test_tuple.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_recursion.py to test_recursion.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_namedtuple.py to test_namedtuple.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_default.py to test_default.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_encode_for_html.py to test_encode_for_html.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_decode.py to test_decode.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_decimal.py to test_decimal.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_fail.py to test_fail.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_dump.py to test_dump.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_tool.py to test_tool.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_check_circular.py to test_check_circular.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_pass3.py to test_pass3.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_separators.py to test_separators.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_scanstring.py to test_scanstring.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_indent.py to test_indent.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_speedups.py to test_speedups.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_float.py to test_float.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_pass2.py to test_pass2.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_pass1.py to test_pass1.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_encode_basestring_ascii.py to test_encode_basestring_ascii.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_item_sort_key.py to test_item_sort_key.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_errors.py to test_errors.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_for_json.py to test_for_json.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/tests/test_unicode.py to test_unicode.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/scanner.py to scanner.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/compat.py to compat.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/encoder.py to encoder.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson/decoder.py to decoder.pyc
     running install_egg_info
     running egg_info
     creating simplejson.egg-info
@@ -1737,11 +1737,11 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     reading manifest file 'simplejson.egg-info/SOURCES.txt'
     reading manifest template 'MANIFEST.in'
     writing manifest file 'simplejson.egg-info/SOURCES.txt'
-    Copying simplejson.egg-info to /home/markmc/trash/pip-debug/t4/lib64/python2.7/site-packages/simplejson-3.3.0-py2.7.egg-info
+    Copying simplejson.egg-info to /home/markmc/trash/pip-debug/tN/lib64/python2.7/site-packages/simplejson-3.3.0-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-NIXqcB-record/install-record.txt'
   Running setup.py install for setuptools-git
-    Running command /home/markmc/trash/pip-debug/t4/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/t4/build/setuptools-git/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-4WSNbN-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/t4/include/site/python2.7
+    Running command /home/markmc/trash/pip-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-debug/tN/build/setuptools-git/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-4WSNbN-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-debug/tN/include/site/python2.7
     /usr/lib64/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'mainainer'
       warnings.warn(msg)
     /usr/lib64/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'mainainer_email'
@@ -1756,13 +1756,13 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     copying setuptools_git/__init__.py -> build/lib/setuptools_git
     copying setuptools_git/utils.py -> build/lib/setuptools_git
     running install_lib
-    creating /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git
-    copying build/lib/setuptools_git/tests.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git
-    copying build/lib/setuptools_git/__init__.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git
-    copying build/lib/setuptools_git/utils.py -> /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git/tests.py to tests.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git/__init__.py to __init__.pyc
-    byte-compiling /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git/utils.py to utils.pyc
+    creating /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git
+    copying build/lib/setuptools_git/tests.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git
+    copying build/lib/setuptools_git/__init__.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git
+    copying build/lib/setuptools_git/utils.py -> /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git/tests.py to tests.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git/utils.py to utils.pyc
     running install_egg_info
     running egg_info
     writing setuptools_git.egg-info/PKG-INFO
@@ -1773,13 +1773,13 @@ Installing collected packages: oslo.config, python-keystoneclient, six, d2to1, p
     
     reading manifest file 'setuptools_git.egg-info/SOURCES.txt'
     writing manifest file 'setuptools_git.egg-info/SOURCES.txt'
-    Copying setuptools_git.egg-info to /home/markmc/trash/pip-debug/t4/lib/python2.7/site-packages/setuptools_git-1.0b1-py2.7.egg-info
+    Copying setuptools_git.egg-info to /home/markmc/trash/pip-debug/tN/lib/python2.7/site-packages/setuptools_git-1.0b1-py2.7.egg-info
     running install_scripts
     writing list of installed files to '/tmp/pip-4WSNbN-record/install-record.txt'
 Successfully installed oslo.config python-keystoneclient six d2to1 pbr iso8601 prettytable requests simplejson setuptools-git
 Cleaning up...
-  Removing temporary dir /home/markmc/trash/pip-debug/t4/build...
-+ . t4/bin/activate
+  Removing temporary dir /home/markmc/trash/pip-debug/tN/build...
++ . tN/bin/activate
 ++ deactivate nondestructive
 ++ unset pydoc
 ++ '[' -n '' ']'
@@ -1789,19 +1789,19 @@ Cleaning up...
 ++ '[' -n '' ']'
 ++ unset VIRTUAL_ENV
 ++ '[' '!' nondestructive = nondestructive ']'
-++ VIRTUAL_ENV=/home/markmc/trash/pip-debug/t4
+++ VIRTUAL_ENV=/home/markmc/trash/pip-debug/tN
 ++ export VIRTUAL_ENV
-++ _OLD_VIRTUAL_PATH=/home/markmc/trash/pip-debug/t4/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
-++ PATH=/home/markmc/trash/pip-debug/t4/bin:/home/markmc/trash/pip-debug/t4/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
+++ _OLD_VIRTUAL_PATH=/home/markmc/trash/pip-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
+++ PATH=/home/markmc/trash/pip-debug/tN/bin:/home/markmc/trash/pip-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
 ++ export PATH
 ++ '[' -n '' ']'
 ++ '[' -z '' ']'
 ++ _OLD_VIRTUAL_PS1=
 ++ '[' x '!=' x ']'
-+++ basename /home/markmc/trash/pip-debug/t4
-++ '[' t4 = __ ']'
-+++ basename /home/markmc/trash/pip-debug/t4
-++ PS1='(t4)'
++++ basename /home/markmc/trash/pip-debug/tN
+++ '[' tN = __ ']'
++++ basename /home/markmc/trash/pip-debug/tN
+++ PS1='(tN)'
 ++ export PS1
 ++ alias 'pydoc=python -m pydoc'
 ++ '[' -n /bin/bash -o -n '' ']'
