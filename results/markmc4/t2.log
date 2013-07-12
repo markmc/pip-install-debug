@@ -1,0 +1,619 @@
+++ virtualenv tN
+New python executable in tN/bin/python
+Installing setuptools............done.
+Installing pip...............done.
+++ . tN/bin/activate
++++ deactivate nondestructive
++++ unset pydoc
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ '[' -n /bin/bash -o -n '' ']'
++++ hash -r
++++ '[' -n '' ']'
++++ unset VIRTUAL_ENV
++++ '[' '!' nondestructive = nondestructive ']'
++++ VIRTUAL_ENV=/home/markmc/trash/pip-install-debug/tN
++++ export VIRTUAL_ENV
++++ _OLD_VIRTUAL_PATH=/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
++++ PATH=/home/markmc/trash/pip-install-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
++++ export PATH
++++ '[' -n '' ']'
++++ '[' -z '' ']'
++++ _OLD_VIRTUAL_PS1='(t1)'
++++ '[' x '!=' x ']'
+++++ basename /home/markmc/trash/pip-install-debug/tN
++++ '[' tN = __ ']'
+++++ basename /home/markmc/trash/pip-install-debug/tN
++++ PS1='(tN)(t1)'
++++ export PS1
++++ alias 'pydoc=python -m pydoc'
++++ '[' -n /bin/bash -o -n '' ']'
++++ hash -r
+++ pip -vvv install --upgrade pip
+Getting page http://pypi.openstack.org/pip
+Could not fetch URL http://pypi.openstack.org/pip: HTTP Error 404: Not Found
+Will skip URL http://pypi.openstack.org/pip when looking for download links for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+Getting page http://pypi.openstack.org/
+URLs to search for versions for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg:
+* http://pypi.openstack.org/pip/
+* http://pypi.python.org/simple/pip/
+Getting page http://pypi.openstack.org/pip/
+Getting page http://pypi.python.org/simple/pip/
+Could not fetch URL http://pypi.openstack.org/pip/: HTTP Error 404: Not Found
+Will skip URL http://pypi.openstack.org/pip/ when looking for download links for pip in ./tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+Analyzing links from page https://pypi.python.org/simple/pip/
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.6.tar.gz#md5=083ff408ca5314cf0561ff79a048cd9a (from https://pypi.python.org/simple/pip/), version: 0.6
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.6.3.tar.gz#md5=0602fa9179cfaa98e41565d4a581d98c (from https://pypi.python.org/simple/pip/), version: 0.6.3
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.7.1.tar.gz#md5=420c83ad67bdcb542f772eb64392cce6 (from https://pypi.python.org/simple/pip/), version: 0.7.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.8.tar.gz#md5=468d9adc309f33ad51cee38f0d455429 (from https://pypi.python.org/simple/pip/), version: 0.8
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.3.1.tar.gz#md5=78102ddbb040a183dd361b5d432cdf88 (from https://pypi.python.org/simple/pip/), version: 0.3.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.8.2.tar.gz#md5=df1eca0abe7643d92b5222240bed15f6 (from https://pypi.python.org/simple/pip/), version: 0.8.2
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.5.1.tar.gz#md5=d4bdaa5f5f5bf8c6263ace75a0882232 (from https://pypi.python.org/simple/pip/), version: 0.5.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.6.1.tar.gz#md5=7560e3055c66afb99ac4a7892389a237 (from https://pypi.python.org/simple/pip/), version: 0.6.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.5.tar.gz#md5=63eed8673e40628534cc0aa9c98e8f3d (from https://pypi.python.org/simple/pip/), version: 0.5
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.7.tar.gz#md5=8d4b4f7266fe0808569182e6832d74ac (from https://pypi.python.org/simple/pip/), version: 0.7
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.8.1.tar.gz#md5=5d40614774781b118dd3f10c0d038cbc (from https://pypi.python.org/simple/pip/), version: 0.8.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.2.tar.gz#md5=9eda07c8be7105aa774c7eb51c023294 (from https://pypi.python.org/simple/pip/), version: 0.2
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.8.3.tar.gz#md5=0603337a81f83df2b1d2f1151565efac (from https://pypi.python.org/simple/pip/), version: 0.8.3
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.0.1.tar.gz#md5=28dcc70225e5bf925532abc5b087a94b (from https://pypi.python.org/simple/pip/), version: 1.0.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.2.1.tar.gz#md5=d2af655c1a87e03799442d045c1d6743 (from https://pypi.python.org/simple/pip/), version: 0.2.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.2.tar.gz#md5=99e44d1d7f88b182459e7c19c45aee9f (from https://pypi.python.org/simple/pip/), version: 1.2
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.6.2.tar.gz#md5=9a43e0a2ce8833069f41c347932bdb25 (from https://pypi.python.org/simple/pip/), version: 0.6.2
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.4.tar.gz#md5=b45714d04f8fd38fe8e3d4c7600b91a2 (from https://pypi.python.org/simple/pip/), version: 0.4
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.3.tar.gz#md5=8fccb5b49c6377cbfb1949ccd7be43b3 (from https://pypi.python.org/simple/pip/), version: 0.3
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.1.tar.gz#md5=62a9f08dd5dc69d76734568a6c040508 (from https://pypi.python.org/simple/pip/), version: 1.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.0.2.tar.gz#md5=47ec6ff3f6d962696fe08d4c8264ad49 (from https://pypi.python.org/simple/pip/), version: 1.0.2
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.0.tar.gz#md5=327fc4a03df189506966e15021730550 (from https://pypi.python.org/simple/pip/), version: 1.0
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.2.1.tar.gz#md5=db8a6d8a4564d3dc7f337ebed67b1a85 (from https://pypi.python.org/simple/pip/), version: 1.2.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.3.tar.gz#md5=918559b784e2aca9559d498050bb86e7 (from https://pypi.python.org/simple/pip/), version: 1.3
+  Found link https://pypi.python.org/packages/source/p/pip/pip-1.3.1.tar.gz#md5=cbb27a191cebc58997c4da8513863153 (from https://pypi.python.org/simple/pip/), version: 1.3.1
+  Found link https://pypi.python.org/packages/source/p/pip/pip-0.7.2.tar.gz#md5=cfe73090aaa0d3b0c104179a627859d1 (from https://pypi.python.org/simple/pip/), version: 0.7.2
+  Found link https://github.com/pypa/pip/tarball/develop#egg=pip-dev (from https://pypi.python.org/simple/pip/), version: dev
+Using version 1.3.1 (newest of versions: 1.3.1, 1.3, 1.2.1, 1.2.1, 1.2, 1.1, 1.0.2, 1.0.1, 1.0, 0.8.3, 0.8.2, 0.8.1, 0.8, 0.7.2, 0.7.1, 0.7, 0.6.3, 0.6.2, 0.6.1, 0.6, 0.5.1, 0.5, 0.4, 0.3.1, 0.3, 0.2.1, 0.2, dev)
+Downloading/unpacking pip from https://pypi.python.org/packages/source/p/pip/pip-1.3.1.tar.gz#md5=cbb27a191cebc58997c4da8513863153
+  Using download cache from /home/markmc/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fp%2Fpip%2Fpip-1.3.1.tar.gz
+  Running setup.py egg_info for package pip
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/pip.egg-info
+    writing requirements to pip-egg-info/pip.egg-info/requires.txt
+    writing pip-egg-info/pip.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/pip.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/pip.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/pip.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/pip.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/pip.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no previously-included files matching '*.txt' found under directory 'docs/_build'
+    no previously-included directories found matching 'docs/_build/_sources'
+    writing manifest file 'pip-egg-info/pip.egg-info/SOURCES.txt'
+  Source in ./tN/build/pip has version 1.3.1, which satisfies requirement pip from https://pypi.python.org/packages/source/p/pip/pip-1.3.1.tar.gz#md5=cbb27a191cebc58997c4da8513863153
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+Installing collected packages: pip
+  Found existing installation: pip 1.2.1
+    Uninstalling pip:
+      Removing file or directory /home/markmc/trash/pip-install-debug/tN/bin/pip
+      Removing file or directory /home/markmc/trash/pip-install-debug/tN/bin/pip-2.7
+      Removing file or directory /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg
+      Removing pth entries from /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/easy-install.pth:
+      Removing entry: ./pip-1.2.1-py2.7.egg
+      Successfully uninstalled pip
+  Running setup.py install for pip
+    Running command /home/markmc/trash/pip-install-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-install-debug/tN/build/pip/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-7ncwP1-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-install-debug/tN/include/site/python2.7
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/pip
+    copying pip/exceptions.py -> build/lib/pip
+    copying pip/index.py -> build/lib/pip
+    copying pip/basecommand.py -> build/lib/pip
+    copying pip/status_codes.py -> build/lib/pip
+    copying pip/log.py -> build/lib/pip
+    copying pip/runner.py -> build/lib/pip
+    copying pip/locations.py -> build/lib/pip
+    copying pip/req.py -> build/lib/pip
+    copying pip/__main__.py -> build/lib/pip
+    copying pip/baseparser.py -> build/lib/pip
+    copying pip/util.py -> build/lib/pip
+    copying pip/__init__.py -> build/lib/pip
+    copying pip/cmdoptions.py -> build/lib/pip
+    copying pip/download.py -> build/lib/pip
+    creating build/lib/pip/commands
+    copying pip/commands/bundle.py -> build/lib/pip/commands
+    copying pip/commands/help.py -> build/lib/pip/commands
+    copying pip/commands/unzip.py -> build/lib/pip/commands
+    copying pip/commands/list.py -> build/lib/pip/commands
+    copying pip/commands/zip.py -> build/lib/pip/commands
+    copying pip/commands/__init__.py -> build/lib/pip/commands
+    copying pip/commands/search.py -> build/lib/pip/commands
+    copying pip/commands/freeze.py -> build/lib/pip/commands
+    copying pip/commands/install.py -> build/lib/pip/commands
+    copying pip/commands/completion.py -> build/lib/pip/commands
+    copying pip/commands/show.py -> build/lib/pip/commands
+    copying pip/commands/uninstall.py -> build/lib/pip/commands
+    creating build/lib/pip/vcs
+    copying pip/vcs/bazaar.py -> build/lib/pip/vcs
+    copying pip/vcs/__init__.py -> build/lib/pip/vcs
+    copying pip/vcs/subversion.py -> build/lib/pip/vcs
+    copying pip/vcs/mercurial.py -> build/lib/pip/vcs
+    copying pip/vcs/git.py -> build/lib/pip/vcs
+    creating build/lib/pip/backwardcompat
+    copying pip/backwardcompat/socket_create_connection.py -> build/lib/pip/backwardcompat
+    copying pip/backwardcompat/ssl_match_hostname.py -> build/lib/pip/backwardcompat
+    copying pip/backwardcompat/__init__.py -> build/lib/pip/backwardcompat
+    copying pip/cacert.pem -> build/lib/pip
+    running install_lib
+    creating /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/exceptions.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/index.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/basecommand.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/bundle.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/help.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/unzip.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/list.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/zip.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/__init__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/search.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/freeze.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/install.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/completion.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/show.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/commands/uninstall.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands
+    copying build/lib/pip/status_codes.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/log.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/runner.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/locations.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/cacert.pem -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/req.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/__main__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/baseparser.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/util.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/socket_create_connection.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/ssl_match_hostname.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/backwardcompat/__init__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat
+    copying build/lib/pip/__init__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    copying build/lib/pip/cmdoptions.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    creating /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/bazaar.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/__init__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/subversion.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/mercurial.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/vcs/git.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs
+    copying build/lib/pip/download.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/exceptions.py to exceptions.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/index.py to index.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/basecommand.py to basecommand.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/bundle.py to bundle.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/help.py to help.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/unzip.py to unzip.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/list.py to list.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/zip.py to zip.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/search.py to search.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/freeze.py to freeze.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/install.py to install.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/completion.py to completion.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/show.py to show.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/commands/uninstall.py to uninstall.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/status_codes.py to status_codes.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/log.py to log.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/runner.py to runner.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/locations.py to locations.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/req.py to req.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/__main__.py to __main__.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/baseparser.py to baseparser.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/util.py to util.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/socket_create_connection.py to socket_create_connection.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/ssl_match_hostname.py to ssl_match_hostname.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/backwardcompat/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/cmdoptions.py to cmdoptions.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs/bazaar.py to bazaar.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs/__init__.py to __init__.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs/subversion.py to subversion.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs/mercurial.py to mercurial.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/vcs/git.py to git.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip/download.py to download.pyc
+    running install_egg_info
+    running egg_info
+    writing requirements to pip.egg-info/requires.txt
+    writing pip.egg-info/PKG-INFO
+    writing top-level names to pip.egg-info/top_level.txt
+    writing dependency_links to pip.egg-info/dependency_links.txt
+    writing entry points to pip.egg-info/entry_points.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no previously-included files matching '*.txt' found under directory 'docs/_build'
+    no previously-included directories found matching 'docs/_build/_sources'
+    writing manifest file 'pip.egg-info/SOURCES.txt'
+    Copying pip.egg-info to /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip-1.3.1-py2.7.egg-info
+    running install_scripts
+    Installing pip script to /home/markmc/trash/pip-install-debug/tN/bin
+    Installing pip-2.7 script to /home/markmc/trash/pip-install-debug/tN/bin
+    writing list of installed files to '/tmp/pip-7ncwP1-record/install-record.txt'
+Successfully installed pip
+Cleaning up...
+  Removing temporary dir /home/markmc/trash/pip-install-debug/tN/build...
+++ rm -rf ./tN/src/pip
+++ pip -vvv install --upgrade -e git+https://github.com/markmc/pip.git@master#egg=pip
+Obtaining pip from git+https://github.com/markmc/pip.git@master#egg=pip
+  Cloning https://github.com/markmc/pip.git (to master) to ./tN/src/pip
+  Found command 'git' at '/usr/bin/git'
+  Running command /usr/bin/git clone -q https://github.com/markmc/pip.git /home/markmc/trash/pip-install-debug/tN/src/pip
+  Running command /usr/bin/git tag -l
+  0.3
+  0.4
+  0.5
+  0.6
+  0.6.1
+  0.7
+  0.7.1
+  0.7.2
+  0.8
+  0.8.1
+  0.8.2
+  0.8.3
+  1.0
+  1.0.1
+  1.0.2
+  1.1
+  1.2
+  1.2.1
+  1.3
+  1.3.1
+  1.3rc1
+  1.3rc2
+  1.4rc1
+  1.4rc2
+  1.4rc3
+  Running command /usr/bin/git rev-parse 0.3
+  ade11f6eebf16460a7bbe59d7f99b65ce352baf3
+  Running command /usr/bin/git rev-parse 0.4
+  46369de381c86d838367d1030aff681916d8a687
+  Running command /usr/bin/git rev-parse 0.5
+  44625539c248e6b562abb08c75f61082913d693a
+  Running command /usr/bin/git rev-parse 0.6
+  2407b7426e14da75af1b716c8feff8d8fba727dc
+  Running command /usr/bin/git rev-parse 0.6.1
+  506e575738a301797815c0da929b065fb46726a0
+  Running command /usr/bin/git rev-parse 0.7
+  00bcd13bb545379f43ed7beb265961d20044a4be
+  Running command /usr/bin/git rev-parse 0.7.1
+  edbc041e87a6c6f0d78344299821bba1bc31204b
+  Running command /usr/bin/git rev-parse 0.7.2
+  f54e63e819917de0f0268321178d6be2b7650b49
+  Running command /usr/bin/git rev-parse 0.8
+  2404a34eba4ee9c48cc8bc4055b99a48354f4950
+  Running command /usr/bin/git rev-parse 0.8.1
+  f55c28e560c92cafb6e6451f8084232b6d717603
+  Running command /usr/bin/git rev-parse 0.8.2
+  cd26c366746335a2ceb624d5fdb19f9e500d3147
+  Running command /usr/bin/git rev-parse 0.8.3
+  2d25114d28280dff55b021dd0803364d378697df
+  Running command /usr/bin/git rev-parse 1.0
+  d92e2a3f861c1a635a3e236cdeee1969a011f44c
+  Running command /usr/bin/git rev-parse 1.0.1
+  a9b1d8464b463a006ab508563c277875b37bce77
+  Running command /usr/bin/git rev-parse 1.0.2
+  81b1ef64273c5e18d3f7d13a933e42032df5adf6
+  Running command /usr/bin/git rev-parse 1.1
+  1a5a6e0e906eb18619efbaa3b27e7e6d283a1c51
+  Running command /usr/bin/git rev-parse 1.2
+  f6aae6069f1b97f661edc7db54f7a075e4b81c85
+  Running command /usr/bin/git rev-parse 1.2.1
+  1b633826c3e9bcda4270e5066aff7ad2906369d4
+  Running command /usr/bin/git rev-parse 1.3
+  b7619a75b52b932e01dc3d063e9d8b0aa2289e2a
+  Running command /usr/bin/git rev-parse 1.3.1
+  7a414f574bcaf1a5f5bbd4684446ffd88c740025
+  Running command /usr/bin/git rev-parse 1.3rc1
+  cd001b1f8950ae8002264459e40c31a72f308350
+  Running command /usr/bin/git rev-parse 1.3rc2
+  7962d3f79a3a3e51df53df6243dc410e60942625
+  Running command /usr/bin/git rev-parse 1.4rc1
+  dcfeb4eb94675c4cf074931b65273104ab29bf2f
+  Running command /usr/bin/git rev-parse 1.4rc2
+  978662b08b118bbeaae5aba57c823090b1c3b3ee
+  Running command /usr/bin/git rev-parse 1.4rc3
+  a1fa1ae8a94182389c9990fe5690269d840bda09
+  Running command /usr/bin/git branch -r
+    origin/0.5.X
+    origin/0.6.X
+    origin/0.7.X
+    origin/1.3.X
+    origin/HEAD -> origin/develop
+    origin/develop
+    origin/feature/install-target
+    origin/feature/pep381-verification
+    origin/feature/ssl-mirror-requests
+    origin/issue-381-do-not-use-pwd-in-installation-process
+    origin/master
+    origin/release-1.4
+    origin/threaded-page-getting
+  Running command /usr/bin/git branch -l
+  * develop
+  Running command /usr/bin/git rev-parse origin/0.5.X
+  68c3cc58a8d1ab8861c34725ce60846be7ccc620
+  Running command /usr/bin/git rev-parse origin/0.6.X
+  0380b566f6ed67b905c8db003394fca06fdbb574
+  Running command /usr/bin/git rev-parse origin/0.7.X
+  cf3497005c6fd132caf9ccf2cd3cecbc849ccb16
+  Running command /usr/bin/git rev-parse origin/1.3.X
+  c6fab6ac5424b18f5cbae9a0ca1aeedfe053a36a
+  Running command /usr/bin/git rev-parse origin/HEAD
+  9b57cc811961e514bf7b86537864f659b271226f
+  Running command /usr/bin/git rev-parse origin/develop
+  9b57cc811961e514bf7b86537864f659b271226f
+  Running command /usr/bin/git rev-parse origin/feature/install-target
+  c02811f3d8dfdc4c02835e04ffcc87dc77fd4e84
+  Running command /usr/bin/git rev-parse origin/feature/pep381-verification
+  efa479c50249b00493807a325f2713c592306fcb
+  Running command /usr/bin/git rev-parse origin/feature/ssl-mirror-requests
+  6d9725a0bfd4070f62c3fd148e604018ef229d5e
+  Running command /usr/bin/git rev-parse origin/issue-381-do-not-use-pwd-in-installation-process
+  38d7f5a69f3d5d07dc32a9e939b3b04d0262e9ed
+  Running command /usr/bin/git rev-parse origin/master
+  d79cb8d6fe8a10d86c9068c49803bff5d3e2f956
+  Running command /usr/bin/git rev-parse origin/release-1.4
+  3b0eb9136a374b814ac92fac5f38e7cbb8eb1950
+  Running command /usr/bin/git rev-parse origin/threaded-page-getting
+  235e1dea02abd3a89ab53ea8035fd4ee8a37887b
+  Running command /usr/bin/git rev-parse develop
+  9b57cc811961e514bf7b86537864f659b271226f
+  Running command /usr/bin/git rev-parse HEAD
+  9b57cc811961e514bf7b86537864f659b271226f
+  Running command /usr/bin/git checkout -q d79cb8d6fe8a10d86c9068c49803bff5d3e2f956
+  Running setup.py egg_info for package pip
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip.egg-info
+    writing requirements to pip.egg-info/requires.txt
+    writing pip.egg-info/PKG-INFO
+    writing top-level names to pip.egg-info/top_level.txt
+    writing dependency_links to pip.egg-info/dependency_links.txt
+    writing entry points to pip.egg-info/entry_points.txt
+    writing manifest file 'pip.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no previously-included files matching '*.rst' found under directory 'docs/_build'
+    no previously-included directories found matching 'docs/_build/_sources'
+    writing manifest file 'pip.egg-info/SOURCES.txt'
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+  skipping extra testing
+Installing collected packages: pip
+  Running setup.py develop for pip
+    Running command /home/markmc/trash/pip-install-debug/tN/bin/python -c "import setuptools; __file__='/home/markmc/trash/pip-install-debug/tN/src/pip/setup.py'; exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" develop --no-deps
+    running develop
+    running egg_info
+    writing requirements to pip.egg-info/requires.txt
+    writing pip.egg-info/PKG-INFO
+    writing top-level names to pip.egg-info/top_level.txt
+    writing dependency_links to pip.egg-info/dependency_links.txt
+    writing entry points to pip.egg-info/entry_points.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no previously-included files matching '*.rst' found under directory 'docs/_build'
+    no previously-included directories found matching 'docs/_build/_sources'
+    writing manifest file 'pip.egg-info/SOURCES.txt'
+    running build_ext
+    Creating /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/pip.egg-link (link to .)
+    Adding pip 1.4rc3 to easy-install.pth file
+    Installing pip script to /home/markmc/trash/pip-install-debug/tN/bin
+    Installing pip-2.7 script to /home/markmc/trash/pip-install-debug/tN/bin
+    
+    Installed /home/markmc/trash/pip-install-debug/tN/src/pip
+Successfully installed pip
+Cleaning up...
+  Removing temporary dir /home/markmc/trash/pip-install-debug/tN/build...
++ pip -vvv install http://tarballs.openstack.org/oslo.config/oslo.config-1.2.0a3.tar.gz#egg=oslo.config
+Downloading/unpacking oslo.config from http://tarballs.openstack.org/oslo.config/oslo.config-1.2.0a3.tar.gz
+  Using download cache from /home/markmc/.pip/cache/http%3A%2F%2Ftarballs.openstack.org%2Foslo.config%2Foslo.config-1.2.0a3.tar.gz
+  Running setup.py egg_info for package oslo.config
+    Running command python setup.py egg_info
+    
+    Installed /tmp/easy_install-W3Niyd/pbr-0.5.18/d2to1-0.2.10-py2.7.egg
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /home/markmc/trash/pip-install-debug/tN/build/oslo.config/pbr-0.5.18-py2.7.egg
+    Searching for d2to1
+    Reading http://pypi.python.org/simple/d2to1/
+    Best match: d2to1 0.2.10
+    Downloading https://pypi.python.org/packages/source/d/d2to1/d2to1-0.2.10.tar.gz#md5=be97f5330bae3206e1555b58dae23848
+    Processing d2to1-0.2.10.tar.gz
+    Running d2to1-0.2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-LLgBzl/d2to1-0.2.10/egg-dist-tmp-eEcS5E
+    
+    Installed /home/markmc/trash/pip-install-debug/tN/build/oslo.config/d2to1-0.2.10-py2.7.egg
+    Searching for setuptools-git>=0.4
+    Reading http://pypi.python.org/simple/setuptools_git/
+    Best match: setuptools-git 1.0
+    Downloading https://pypi.python.org/packages/source/s/setuptools-git/setuptools-git-1.0.tar.gz#md5=de63b541a10c2b83caa478c687458b16
+    Processing setuptools-git-1.0.tar.gz
+    Running setuptools-git-1.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-NTJCdk/setuptools-git-1.0/egg-dist-tmp-cr3TbX
+    
+    Installed /home/markmc/trash/pip-install-debug/tN/build/oslo.config/setuptools_git-1.0-py2.7.egg
+    running egg_info
+    creating pip-egg-info/oslo.config.egg-info
+    writing requirements to pip-egg-info/oslo.config.egg-info/requires.txt
+    writing pip-egg-info/oslo.config.egg-info/PKG-INFO
+    writing namespace_packages to pip-egg-info/oslo.config.egg-info/namespace_packages.txt
+    writing top-level names to pip-egg-info/oslo.config.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/oslo.config.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/oslo.config.egg-info/SOURCES.txt'
+    [d2to1] running patched manifest_maker command with extra_files support
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/oslo.config.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*' under directory 'tools'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    writing manifest file 'pip-egg-info/oslo.config.egg-info/SOURCES.txt'
+  Source in ./tN/build/oslo.config has version 1.2.0a3, which satisfies requirement oslo.config from http://tarballs.openstack.org/oslo.config/oslo.config-1.2.0a3.tar.gz
+Downloading/unpacking six (from oslo.config)
+  Getting page http://pypi.openstack.org/six/
+  Could not fetch URL http://pypi.openstack.org/six/: HTTP Error 404: Not Found
+  Will skip URL http://pypi.openstack.org/six/ when looking for download links for six (from oslo.config)
+  Getting page http://pypi.openstack.org/
+  URLs to search for versions for six (from oslo.config):
+  * http://pypi.openstack.org/six/
+  * http://pypi.python.org/simple/six/
+  Getting page http://pypi.openstack.org/six/
+  Getting page http://pypi.python.org/simple/six/
+  Could not fetch URL http://pypi.openstack.org/six/: HTTP Error 404: Not Found
+  Will skip URL http://pypi.openstack.org/six/ when looking for download links for six (from oslo.config)
+  Analyzing links from page https://pypi.python.org/simple/six/
+    Found link https://pypi.python.org/packages/source/s/six/six-0.9.1.tar.gz#md5=1b249e0011355722f569406135a8ac93 (from https://pypi.python.org/simple/six/), version: 0.9.1
+    Found link https://pypi.python.org/packages/source/s/six/six-0.9.2.tar.gz#md5=92ea7c870396dd9222029a188c6bbd7f (from https://pypi.python.org/simple/six/), version: 0.9.2
+    Found link https://pypi.python.org/packages/source/s/six/six-1.0b1.tar.gz#md5=cbfcc64af1f27162a6a6b5510e262c9d (from https://pypi.python.org/simple/six/), version: 1.0b1
+    Found link https://pypi.python.org/packages/source/s/six/six-0.9.0.tar.gz#md5=5ce2947347101b9f54674c19ef88233d (from https://pypi.python.org/simple/six/), version: 0.9.0
+    Found link https://pypi.python.org/packages/source/s/six/six-1.0.0.tar.gz#md5=37c7ff036fdff2b1bb8d55e49ccb3b44 (from https://pypi.python.org/simple/six/), version: 1.0.0
+    Found link https://pypi.python.org/packages/source/s/six/six-1.1.0.tar.gz#md5=9e8099b57cd27493a6988e9c9b313e23 (from https://pypi.python.org/simple/six/), version: 1.1.0
+    Found link https://pypi.python.org/packages/source/s/six/six-1.2.0.tar.gz#md5=2a5d1afc79912832ac78fd38e3d75d7e (from https://pypi.python.org/simple/six/), version: 1.2.0
+    Found link https://pypi.python.org/packages/source/s/six/six-1.3.0.tar.gz#md5=ec47fe6070a8a64c802363d2c2b1e2ee (from https://pypi.python.org/simple/six/), version: 1.3.0
+    Skipping link http://packages.python.org/six/ (from https://pypi.python.org/simple/six/); not a file
+    Skipping link http://bitbucket.org/gutworth/six (from https://pypi.python.org/simple/six/); not a file
+    Skipping link http://bugs.launchpad.net/python-six (from https://pypi.python.org/simple/six/); not a file
+    Skipping link http://code.launchpad.net/python-six (from https://pypi.python.org/simple/six/); not a file
+    Skipping link http://mail.python.org/mailman/listinfo/python-porting (from https://pypi.python.org/simple/six/); not a file
+  Ignoring link https://pypi.python.org/packages/source/s/six/six-1.0b1.tar.gz#md5=cbfcc64af1f27162a6a6b5510e262c9d (from https://pypi.python.org/simple/six/), version 1.0b1 is a pre-release (use --pre to allow).
+  Using version 1.3.0 (newest of versions: 1.3.0, 1.2.0, 1.1.0, 1.0.0, 0.9.2, 0.9.1, 0.9.0)
+  Using download cache from /home/markmc/.pip/cache/https%3A%2F%2Fpypi.python.org%2Fpackages%2Fsource%2Fs%2Fsix%2Fsix-1.3.0.tar.gz
+  Running setup.py egg_info for package six
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/six.egg-info
+    writing pip-egg-info/six.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/six.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/six.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/six.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/six.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/six.egg-info/SOURCES.txt'
+  Source in ./tN/build/six has version 1.3.0, which satisfies requirement six (from oslo.config)
+Installing collected packages: oslo.config, six
+  Running setup.py install for oslo.config
+    Running command /home/markmc/trash/pip-install-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-install-debug/tN/build/oslo.config/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-7VYJxh-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-install-debug/tN/include/site/python2.7
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/oslo
+    copying oslo/__init__.py -> build/lib/oslo
+    creating build/lib/oslo/config
+    copying oslo/config/iniparser.py -> build/lib/oslo/config
+    copying oslo/config/cfg.py -> build/lib/oslo/config
+    copying oslo/config/__init__.py -> build/lib/oslo/config
+    running egg_info
+    writing requirements to oslo.config.egg-info/requires.txt
+    writing oslo.config.egg-info/PKG-INFO
+    writing namespace_packages to oslo.config.egg-info/namespace_packages.txt
+    writing top-level names to oslo.config.egg-info/top_level.txt
+    writing dependency_links to oslo.config.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'oslo.config.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*' under directory 'tools'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    writing manifest file 'oslo.config.egg-info/SOURCES.txt'
+    running install_lib
+    Skipping installation of /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/__init__.py (namespace package)
+    copying oslo/config/iniparser.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config
+    copying oslo/config/cfg.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config
+    copying oslo/config/__init__.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config/iniparser.py to iniparser.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config/cfg.py to cfg.pyc
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo/config/__init__.py to __init__.pyc
+    running install_egg_info
+    Copying oslo.config.egg-info to /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo.config-1.2.0a3-py2.7.egg-info
+    Installing /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/oslo.config-1.2.0a3-py2.7-nspkg.pth
+    running install_scripts
+    writing list of installed files to '/tmp/pip-7VYJxh-record/install-record.txt'
+  Running setup.py install for six
+    Running command /home/markmc/trash/pip-install-debug/tN/bin/python -c "import setuptools;__file__='/home/markmc/trash/pip-install-debug/tN/build/six/setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-hyQ7Ko-record/install-record.txt --single-version-externally-managed --install-headers /home/markmc/trash/pip-install-debug/tN/include/site/python2.7
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    copying six.py -> build/lib
+    running install_lib
+    copying build/lib/six.py -> /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages
+    byte-compiling /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/six.py to six.pyc
+    running install_egg_info
+    running egg_info
+    creating six.egg-info
+    writing six.egg-info/PKG-INFO
+    writing top-level names to six.egg-info/top_level.txt
+    writing dependency_links to six.egg-info/dependency_links.txt
+    writing manifest file 'six.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'six.egg-info/SOURCES.txt'
+    writing manifest file 'six.egg-info/SOURCES.txt'
+    Copying six.egg-info to /home/markmc/trash/pip-install-debug/tN/lib/python2.7/site-packages/six-1.3.0-py2.7.egg-info
+    running install_scripts
+    writing list of installed files to '/tmp/pip-hyQ7Ko-record/install-record.txt'
+Successfully installed oslo.config six
+Cleaning up...
+  Removing temporary dir /home/markmc/trash/pip-install-debug/tN/build...
++ . tN/bin/activate
+++ deactivate nondestructive
+++ unset pydoc
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/home/markmc/trash/pip-install-debug/tN
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/home/markmc/trash/pip-install-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
+++ PATH=/home/markmc/trash/pip-install-debug/tN/bin:/home/markmc/trash/pip-install-debug/tN/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/home/markmc/bin:/home/markmc/scripts
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' x '!=' x ']'
++++ basename /home/markmc/trash/pip-install-debug/tN
+++ '[' tN = __ ']'
++++ basename /home/markmc/trash/pip-install-debug/tN
+++ PS1='(tN)'
+++ export PS1
+++ alias 'pydoc=python -m pydoc'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ pip freeze
++ grep oslo.config
+oslo.config==1.2.0a3
++ python -c 'from oslo.config.cfg import DeprecatedOpt'
