@@ -14,7 +14,7 @@ echo "Setting up $venv"
  virtualenv $venv;
  . $venv/bin/activate ;
 
- pip -vvv install --upgrade pip ;
+ pip -vvv install --upgrade -e git+https://github.com/pypa/pip.git#egg=pip-1.4rc3 ;
 ) 2>&1 | tee -a $venv.log
 
 . $venv/bin/activate
