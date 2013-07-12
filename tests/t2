@@ -1,1 +1,1 @@
-pip -vvv install http://tarballs.openstack.org/oslo.config/oslo.config-master.tar.gz#egg=oslo.config
+pip -vvv install http://tarballs.openstack.org/oslo.config/oslo.config-1.2.0a3.tar.gz#egg=oslo.config
